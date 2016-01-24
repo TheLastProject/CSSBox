@@ -4,6 +4,8 @@ img.cssbox_full {
   position: fixed;
   margin: 0;
   padding: 0px;
+  max-height: 100%;
+  max-width: 100%;
   top: 50%;
   left: 50%;
   margin-right: -50%;

@@ -2,7 +2,7 @@
 A simple, pure-CSS Lightbox replacement.
 
 ## Why CSSBox?
-* Actually lightweight (643b including comments, 347b excluding comments, unminified!)
+* Actually lightweight (682b including comments, 386b excluding comments, unminified!)
 * Centers the image with a nice, yet simple border
 * Completely responsive, works on any screen size
 * Has a pretty fade in animation
