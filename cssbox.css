@@ -2,6 +2,7 @@
    and is available on https://notabug.org/SylvieLorxu/CSSBox */
 img.cssbox_full {
   position: fixed;
+  background-color: white;
   margin: 0;
   padding: 0px;
   max-height: 100%;
