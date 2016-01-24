@@ -1,5 +1,6 @@
-/* The work below, CSSBox, is released under the Creative Commons Zero 1.0 license
-   and is available on https://notabug.org/SylvieLorxu/CSSBox */
+/* The work below, CSSBox, is released under the Creative Commons
+   Attribution-SharAlike 4.0 license and is available on
+   https://notabug.org/SylvieLorxu/CSSBox */
 span.cssbox_full {
   position: fixed;
   height: 100%;
@@ -26,9 +27,51 @@ span.cssbox_full img {
   box-shadow: 0 0 20px black;
 }
 
-img.cssbox_thumb:focus + span.cssbox_full {
+a.cssbox_close,
+a.cssbox_prev,
+a.cssbox_next {
+  position: fixed;
+  text-decoration: none;
+  visibility: hidden;
+  color: white;
+  font-size: 36px;
+}
+
+a.cssbox_close {
+  top: 1%;
+  right: 1%
+}
+
+a.cssbox_close::after {
+  content: '\00d7';
+}
+
+a.cssbox_prev,
+a.cssbox_next {
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+a.cssbox_prev {
+  left: 5%;
+}
+
+a.cssbox_next {
+  right: 5%;
+}
+
+a:target ~ a.cssbox_close,
+a:target ~ a.cssbox_prev,
+a:target ~ a.cssbox_next {
+  visibility: visible;
+}
+
+a:target > img.cssbox_thumb + span.cssbox_full {
   visibility: visible;
   opacity: 1;
 }
-/* The work above, CSSBox, is released under the Creative Commons Zero 1.0 license
-   and is available on https://notabug.org/SylvieLorxu/CSSBox */
+
+span.cssbox_full {
+  cursor: initial;
+}
+/* This is the end of CSSBox */
