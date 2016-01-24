@@ -8,6 +8,7 @@ A simple, pure-CSS Lightbox replacement.
 * Dims the background
 * Completely responsive, works on any screen size
 * Has a pretty fade in animation
+* Absolutely no JavaScript
 
 ## Usage
 Upload cssbox.css to your server and add a stylesheet link to it in your CSS.
