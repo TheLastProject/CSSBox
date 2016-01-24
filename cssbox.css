@@ -1,0 +1,21 @@
+/* The work below, CSSBox, is released under the Creative Commons Zero 1.0 license
+   and is available on https://notabug.org/SylvieLorxu/CSSBox */
+img.cssbox_full {
+  position: fixed;
+  margin: 0;
+  padding: 0px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid black;
+  visibility: hidden;                                                                                                                                                                               opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+img.cssbox_thumb:focus + img.cssbox_full {
+  visibility: visible;
+  opacity: 1;
+}
+/* The work above, CSSBox, is released under the Creative Commons Zero 1.0 license
+   and is available on https://notabug.org/SylvieLorxu/CSSBox */
