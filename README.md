@@ -2,7 +2,7 @@
 A simple, pure-CSS Lightbox replacement.
 
 ## Why CSSBox?
-* Actually lightweight (709b including comments, 413b excluding comments, unminified!)
+* Actually lightweight (843b including comments, 547b excluding comments, unminified!)
 * Centers the image with a nice, yet simple border
 * Completely responsive, works on any screen size
 * Has a pretty fade in animation
@@ -12,7 +12,7 @@ Upload cssbox.css to your server and add a stylesheet link to it in your CSS.
 
 Add your images like this:
 
-    <img class="cssbox_thumb" tabindex=1 src="image_thumbnail.png" /><img class="cssbox_full" src="image_full.png" />
+    <img class="cssbox_thumb" tabindex=1 src="image_thumbnail.png" /><span class="cssbox_full"><img src="image_full.png" /></span>
 
 When a visitor clicks the tumbnail, the fullsize preview will appear in the
 center of the screen.
