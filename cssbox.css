@@ -1,22 +1,32 @@
 /* The work below, CSSBox, is released under the Creative Commons Zero 1.0 license
    and is available on https://notabug.org/SylvieLorxu/CSSBox */
-img.cssbox_full {
+span.cssbox_full {
   position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+span.cssbox_full img {
+  position: fixed;
+  background-color: white;
   margin: 0;
   padding: 0px;
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 90%;
+  max-width: 90%;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   border: 5px solid black;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
 }
 
-img.cssbox_thumb:focus + img.cssbox_full {
+img.cssbox_thumb:focus + span.cssbox_full {
   visibility: visible;
   opacity: 1;
 }
