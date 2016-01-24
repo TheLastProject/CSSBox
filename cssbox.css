@@ -9,7 +9,8 @@ img.cssbox_full {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   border: 5px solid black;
-  visibility: hidden;                                                                                                                                                                               opacity: 0;
+  visibility: hidden;
+  opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
 }
 
