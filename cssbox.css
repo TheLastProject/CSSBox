@@ -30,5 +30,9 @@ img.cssbox_thumb:focus + span.cssbox_full {
   visibility: visible;
   opacity: 1;
 }
+
+img.cssbox_thumb, span.cssbox_full {
+  cursor: pointer;
+}
 /* The work above, CSSBox, is released under the Creative Commons Zero 1.0 license
    and is available on https://notabug.org/SylvieLorxu/CSSBox */
