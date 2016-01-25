@@ -10,8 +10,8 @@ span.cssbox_full {
   top: 0;
   left: 0;
   opacity: 0;
-  visibility: hidden;
-  transition: visibility 0s, opacity 0.5s linear;
+  pointer-events: none;
+  transition: opacity 0.5s linear;
 }
 
 span.cssbox_full img {
@@ -70,6 +70,7 @@ a:target ~ a.cssbox_next {
 a:target > img.cssbox_thumb + span.cssbox_full {
   visibility: visible;
   opacity: 1;
+  pointer-events: initial;
 }
 
 span.cssbox_full {
