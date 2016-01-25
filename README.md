@@ -4,14 +4,14 @@ A simple, pure-CSS Lightbox replacement.
 An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
-* Just over 1kb unminified (1390b including comments, 1084b excluding comments)
+* Just over 1kb unminified (1404b including comments, 1098b excluding comments)
 * There is an even smaller version without gallery functionality in the v1 branch
 * Centers the image
 * Adds a nice, realistic shadow to the image
 * Dims the background
 * Allows you to navigate through images
 * Completely responsive, works on any screen size
-* Has a pretty fade in animation
+* Has a pretty fade in and fade out animation
 * Absolutely no JavaScript
 
 ## Usage
