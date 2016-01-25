@@ -19,12 +19,14 @@ Upload cssbox.css to your server and add a stylesheet link to it in your CSS.
 
 Add your images like this:
 
-    <a id="image2" href="#image2"><img class="cssbox_thumb" src="image_thumb.jpeg" />
-        <span class="cssbox_full"><img src="image_full.jpeg" /></span>
-    </a>
-    <a class="cssbox_close" href="#"></a>
-    <a class="cssbox_prev" href="#image1">&lt;</a>
-    <a class="cssbox_next" href="#image3">&gt;</a>
+    <div>
+        <a id="image2" href="#image2"><img class="cssbox_thumb" src="image_thumb.jpeg" />
+            <span class="cssbox_full"><img src="image_full.jpeg" /></span>
+        </a>
+        <a class="cssbox_close" href="#"></a>
+        <a class="cssbox_prev" href="#image1">&lt;</a>
+        <a class="cssbox_next" href="#image3">&gt;</a>
+    </div>
 
 In the example above, you add an image with id image2 (make sure that appears
 consistently in the a tag), with a close button, a previous button which
