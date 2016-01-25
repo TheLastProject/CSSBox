@@ -1,5 +1,7 @@
-## CSSBox
+# CSSBox
 A simple, pure-CSS Lightbox replacement.
+
+An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
 * Just over 1kb unminified (1284b including comments, 1084b excluding comments)
@@ -10,6 +12,7 @@ A simple, pure-CSS Lightbox replacement.
 * Allows you to navigate through images
 * Completely responsive, works on any screen size
 * Has a pretty fade in animation
+* Absolutely no JavaScript
 
 ## Usage
 Upload cssbox.css to your server and add a stylesheet link to it in your CSS.
@@ -33,9 +36,6 @@ branch, which contains a smaller version without gallery functionality.
 
 When a visitor clicks the tumbnail, the fullsize preview will appear in the
 center of the screen and they can navigate through images.
-
-## Example
-An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## License
 Creative Commons Attribution-ShareAlike 4.0
