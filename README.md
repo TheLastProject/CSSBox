@@ -4,7 +4,7 @@ A simple, pure-CSS Lightbox replacement.
 An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
-* Just over 1kb unminified (1284b including comments, 1084b excluding comments)
+* Just over 1kb unminified (1390b including comments, 1084b excluding comments)
 * There is an even smaller version without gallery functionality in the v1 branch
 * Centers the image
 * Adds a nice, realistic shadow to the image
@@ -39,4 +39,6 @@ center of the screen and they can navigate through images.
 
 ## License
 Creative Commons Attribution-ShareAlike 4.0
+
+Credits do not need to be on your website, just leave them in the CSS.
 
