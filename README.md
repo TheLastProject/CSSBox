@@ -23,7 +23,7 @@ Add your images like this:
         <a id="image2" href="#image2"><img class="cssbox_thumb" src="image_thumb.jpeg" />
             <span class="cssbox_full"><img src="image_full.jpeg" /></span>
         </a>
-        <a class="cssbox_close" href="#"></a>
+        <a class="cssbox_close" href="#void"></a>
         <a class="cssbox_prev" href="#image1">&lt;</a>
         <a class="cssbox_next" href="#image3">&gt;</a>
     </div>
@@ -38,6 +38,10 @@ branch, which contains a smaller version without gallery functionality.
 
 When a visitor clicks the tumbnail, the fullsize preview will appear in the
 center of the screen and they can navigate through images.
+
+Note: We use #void in the HTML to not jump to the top of the page when closing
+the gallery. This is a hack, but should work as long as you don't have any div
+with ID void on your page. If you do, choose another name.
 
 ## License
 Creative Commons Attribution-ShareAlike 4.0
