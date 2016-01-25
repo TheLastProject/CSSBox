@@ -1,5 +1,8 @@
-## CSSBox
+# CSSBox
 A simple, pure-CSS Lightbox replacement.
+
+## Example
+An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
 * Actually lightweight (903b including comments, 607b excluding comments, unminified!)
@@ -19,9 +22,6 @@ Add your images like this:
 
 When a visitor clicks the tumbnail, the fullsize preview will appear in the
 center of the screen.
-
-## Example
-An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## License
 Creative Commons Zero 1.0
