@@ -4,7 +4,7 @@ A simple, pure-CSS Lightbox replacement.
 An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
-* Just over 1kb unminified (1404b including comments, 1098b excluding comments)
+* Just over 1kb unminified (1445b including comments, 1139b excluding comments)
 * There is an even smaller version without gallery functionality in the v1 branch
 * Centers the image
 * Adds a nice, realistic shadow to the image
@@ -19,7 +19,7 @@ Upload cssbox.css to your server and add a stylesheet link to it in your CSS.
 
 Add your images like this:
 
-    <div>
+    <div class="cssbox">
         <a id="image2" href="#image2"><img class="cssbox_thumb" src="image_thumb.jpeg" />
             <span class="cssbox_full"><img src="image_full.jpeg" /></span>
         </a>

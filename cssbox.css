@@ -2,6 +2,10 @@
    Attribution-SharAlike 4.0 license and is available on
    https://notabug.org/SylvieLorxu/CSSBox. You are not required to add
    additional credit to your website, just leave the above text in this file */
+div.cssbox {
+  display: inline-block;
+}
+
 span.cssbox_full {
   position: fixed;
   height: 100%;
