@@ -4,6 +4,7 @@ A simple, pure-CSS Lightbox replacement.
 An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
+* Absolutely no JavaScript
 * Just over 1kb unminified (1445b including comments, 1139b excluding comments)
 * There is an even smaller version without gallery functionality in the v1 branch
 * Centers the image
@@ -12,7 +13,6 @@ An example page is available in the gh-pages branch, or online on [GitHub Pages]
 * Allows you to navigate through images
 * Completely responsive, works on any screen size
 * Has a pretty fade in and fade out animation
-* Absolutely no JavaScript
 
 ## Usage
 Upload cssbox.css to your server and add a stylesheet link to it in your CSS.
