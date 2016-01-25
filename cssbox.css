@@ -1,3 +1,6 @@
+/* The work below, CSSBox, is released under the Creative Commons
+   Attribution-SharAlike 4.0 license and is available on
+   https://notabug.org/SylvieLorxu/CSSBox */
 span.cssbox_full {
   position: fixed;
   height: 100%;
@@ -71,3 +74,4 @@ a:target > img.cssbox_thumb + span.cssbox_full {
 span.cssbox_full {
   cursor: initial;
 }
+/* This is the end of CSSBox */
