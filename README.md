@@ -1,7 +1,6 @@
 # CSSBox
 A simple, pure-CSS Lightbox replacement.
 
-## Example
 An example page is available in the gh-pages branch, or online on [GitHub Pages](https://thelastproject.github.io/CSSBox/).
 
 ## Why CSSBox?
