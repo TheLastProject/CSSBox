@@ -16,6 +16,7 @@ span.cssbox_full {
   left: 0;
   opacity: 0;
   pointer-events: none;
+  cursor: default;
   transition: opacity 0.5s linear;
 }
 
@@ -77,9 +78,5 @@ a:target > img.cssbox_thumb + span.cssbox_full {
   visibility: visible;
   opacity: 1;
   pointer-events: initial;
-}
-
-span.cssbox_full {
-  cursor: initial;
 }
 /* This is the end of CSSBox */
