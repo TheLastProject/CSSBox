@@ -37,10 +37,7 @@ out. If you NEVER need gallery functionality, you may want to look in the v1
 branch, which contains a smaller version without gallery functionality.
 
 When a visitor clicks the tumbnail, the fullsize preview will appear in the
-center of the screen and they can navigate through images. Sometimes, there
-are still elements on top of the preview (for example Bootstrap's navbar
-component). To fix these issues, you need to increase the `z-index` of the
-`.cssbox_full` to be above the z-index of the respective element.
+center of the screen and they can navigate through images.
 
 Note: We use #void in the HTML to not jump to the top of the page when closing
 the gallery. This is a hack, but should work as long as you don't have any div
