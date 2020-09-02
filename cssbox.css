@@ -7,7 +7,7 @@ div.cssbox {
 }
 
 span.cssbox_full {
-  z-index: 999;
+  z-index: 999999;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -37,7 +37,7 @@ span.cssbox_full img {
 a.cssbox_close,
 a.cssbox_prev,
 a.cssbox_next {
-  z-index: 999;
+  z-index: 999999;
   position: fixed;
   text-decoration: none;
   visibility: hidden;
